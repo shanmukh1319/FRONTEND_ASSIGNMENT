@@ -220,6 +220,3 @@ Edit JSON files in `src/config/` to modify form fields. Supported field types:
 - `LIST` - Dropdown select
 - `RADIO` - Radio button group
 
-## License
-
-MIT
