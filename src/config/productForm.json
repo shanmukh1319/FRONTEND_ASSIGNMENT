@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Name",
+      "fieldType": "TEXT",
+      "inputType": "text",
+      "maxLength": 255,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 2,
+      "name": "Description",
+      "fieldType": "TEXT",
+      "inputType": "text",
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 3,
+      "name": "Price",
+      "fieldType": "TEXT",
+      "inputType": "number",
+      "min": 0,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 4,
+      "name": "Currency",
+      "fieldType": "TEXT",
+      "inputType": "text",
+      "maxLength": 10,
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 5,
+      "name": "Inventory Count",
+      "fieldType": "TEXT",
+      "inputType": "number",
+      "min": 0,
+      "defaultValue": "",
+      "required": false
+    },
+    {
+      "id": 6,
+      "name": "Status",
+      "fieldType": "LIST",
+      "defaultValue": "",
+      "required": false,
+      "listOfValues1": ["ACTIVE", "INACTIVE"]
+    }
+  ]
+}

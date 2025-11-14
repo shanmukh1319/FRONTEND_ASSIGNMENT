@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Email",
+      "fieldType": "TEXT",
+      "inputType": "email",
+      "minLength": 1,
+      "maxLength": 100,
+      "defaultValue": "",
+      "required": true
+    },
+    {
+      "id": 2,
+      "name": "Password",
+      "fieldType": "TEXT",
+      "inputType": "password",
+      "minLength": 1,
+      "maxLength": 100,
+      "defaultValue": "",
+      "required": true
+    }
+    
+  ]
+}
+
